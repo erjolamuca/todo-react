@@ -1,32 +1,62 @@
-.App {
+.app-row {
+  background-color: #d3d3d3;
+  border-top: 10px solid #17c078;
+  margin-top: 50px;
+}
+.title {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.toDoButton {
+  background-color: #5454c2;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 210px;
+  margin-top: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.addOption {
+  text-align: center;
+  margin-top: 20px;
+}
+.addOption button {
+  background-color: #17c078;
+  border: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.addOption input {
+  border: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search {
+  text-align: center;
+  margin-top: 10px;
+}
+.optionList {
+  text-align: center;
+  margin-top: 10px;
+  font-style: italic;
+}
+.optionList button {
+  border: none;
+  color: #c41124;
+  margin-left: 5px;
+  background: none;
+}
+.deleteAllButton {
+  background-color: #c41124;
+  border: none;
+  color: white;
+  margin-left: 520px;
+  padding: 5px 5px;
+}
+.styles_modal__gNwvD {
+  padding: 4rem !important;
+}
+.modalDescription {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
 }
